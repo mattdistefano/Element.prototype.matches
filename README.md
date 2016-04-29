@@ -1,13 +1,14 @@
-# HTMLElement.prototype.matches
+# Element.prototype.matches - polyfill
 
 A simple polyfill that consolidates the various vendor specific implementation of
-`HTMLElement.prorotype.matches` so that it can be used in it’s standardized format.
+`Element.prorotype.matches` so that it can be used in it’s standardized format.
 
 ## Install
 
-`npm install HTMLElement.prototype.matches`
+`npm install Element.prototype.matches`
 
 ## Usage
 
-`import 'htmlelement.prototype.matches';`
-`require('htmlelement.prototype.matches');`
+`import 'element.prototype.matches';`
+
+`require('element.prototype.matches');`

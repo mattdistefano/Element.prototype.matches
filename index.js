@@ -1,5 +1,5 @@
 /**
- * HTMLElement.prototype.matches
+ * Element.prototype.matches
  *
  * @author Ryan Hefner <hi@ryanhefner.com>
  */
@@ -7,10 +7,11 @@
 'use strict';
 
 module.exports = (function() {
-    if (!HTMLElement.prototype.matches) {
-        HTMLElement.prototype.matches = HTMLElement.prototype.webkitMatchesSelector
-            || HTMLElement.prototype.mozMatchesSelector
-            || HTMLElement.prototype.msMatchesSelector
-            || HTMLElement.prototype.oMatchesSelector;
+    if (Element && !Element.prototype.matches) {
+        Element.prototype.matches = Element.prototype.matchesSelector
+            || Element.prototype.webkitMatchesSelector
+            || Element.prototype.mozMatchesSelector
+            || Element.prototype.msMatchesSelector
+            || Element.prototype.oMatchesSelector;
     }
 })();
