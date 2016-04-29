@@ -1,0 +1,24 @@
+{
+  "name": "htmlelement.prototype.matches",
+  "version": "0.1.0",
+  "description": "A simple polyfill that consolidates the various vendor specific implementation of `HTMLElement.prorotype.matches` so that it can be used in it’s standardized format.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ryanhefner/HTMLElement.prototype.matches.git"
+  },
+  "keywords": [
+    "htmlelement",
+    "matches",
+    "polyfill"
+  ],
+  "author": "Ryan Hefner <hi@ryanhefner.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanhefner/HTMLElement.prototype.matches/issues"
+  },
+  "homepage": "https://github.com/ryanhefner/HTMLElement.prototype.matches#readme"
+}
