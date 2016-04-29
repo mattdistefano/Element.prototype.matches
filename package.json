@@ -1,6 +1,6 @@
 {
   "name": "element.prototype.matches",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple polyfill that consolidates the various vendor specific implementation of `Element.prorotype.matches` so that it can be used in it’s standardized format.",
   "main": "index.js",
   "scripts": {
